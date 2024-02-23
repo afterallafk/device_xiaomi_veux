@@ -1,8 +1,8 @@
 echo "Cloning required stuffs..."
 
 echo "Cloning kernel..."
-# Kernal
-git clone https://github.com/aswinop/kernel_xiaomi_sm6375.git kernel/xiaomi/sm6375 --depth=1
+# Kernel
+git clone https://github.com/afterallafk/kernel_xiaomi_sm6375.git -b rashoumon kernel/xiaomi/sm6375 --depth=1
 
 echo "Cloning Firmware tree..."
 # Firmware Tree
@@ -10,11 +10,7 @@ git clone https://gitlab.com/aswinop/vendor_xiaomi_veux-firmware.git vendor/xiao
 
 echo "Cloning Vendor..."
 # Vendor
-git clone https://gitlab.com/aswinop/vendor_xiaomi_veux vendor/xiaomi/veux
-
-echo "Cloning hardware related stuff..."
-# Hardware
-git clone https://github.com/Evolution-X/hardware_xiaomi hardware/xiaomi
+git clone https://gitlab.com/afterallafk/vendor_xiaomi_veux.git -b udc vendor/xiaomi/veux
 
 echo "Cloning Gcam stuff..."
 # Gcam
