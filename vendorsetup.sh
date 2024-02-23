@@ -1,3 +1,8 @@
+export USE_CCACHE=1
+export CCACHE_COMPRESS=1
+export CCACHE_DIR=~/ccache
+export CCACHE_MAXSIZE=50G
+
 echo "Cloning required stuffs..."
 
 echo "Cloning kernel..."
