@@ -1,7 +1,6 @@
 # Adb
 persist.service.adb.enable=1                                                    
 persist.service.debuggable=1
-persist.sys.usb.config=mtp,adb
 
 # Adaptive Suspend
 suspend.short_suspend_threshold_millis=2000
