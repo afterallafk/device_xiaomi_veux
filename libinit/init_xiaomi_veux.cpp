@@ -136,4 +136,6 @@ void vendor_load_properties() {
 
     // LMKD Tunning
 
+    // ADB Property
+    property_override("persist.sys.usb.config", "mtp", "adb");
 }
