@@ -9,4 +9,6 @@ git clone https://gitlab.com/ThePrateekBhatia/vendor_xiaomi_veux-firmware.git -b
 
 git clone https://github.com/ThePrateekBhatia/device_xiaomi_veux-kernel.git -b fourteen device/xiaomi/veux-kernel
 
+git clone https://github.com/afterallafk/kernel_xiaomi_sm6375.git -b rashoumon kernel/xiaomi/sm6375 --depth=1
+
 git clone https://github.com/crdroidandroid/android_hardware_xiaomi.git -b 14.0 hardware/xiaomi
