@@ -12,34 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
-# Inherit some common Matrixx stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Project Blaze stuff.
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-# Matrixx 
-MATRIXX_BUILD_TYPE := Official
-MATRIXX_MAINTAINER := AswinOP
-MATRIXX_CHIPSET := SM6375
-MATRIXX_BATTERY := 5000mah
-MATRIXX_DISPLAY := 1080X2400
-
-# Gapps
-WITH_GMS := true
-
-
-# AOSP Recovery
-TARGET_USES_AOSP_RECOVERY := true
-
-# BOOT_ANIMATION
+# Project Blaze 
+BLAZE_BUILD_TYPE := UNOFFICIAL
+BLAZE_MAINTAINER := ＡＤＩＴＹＡ
+WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Nuke AudioFX
-TARGET_EXCLUDES_AUDIOFX := true
-
-#Blur effect
-TARGET_ENABLE_BLUR := true	
+TARGET_SUPPORTS_BLUR := true	
 
 # Device identifier
-PRODUCT_NAME := lineage_veux
+PRODUCT_NAME := blaze_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
