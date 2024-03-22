@@ -14,6 +14,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Inherit some common Project Blaze stuff.
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
+# QTI Framework boost
+TARGET_SUPPORTS_FRAMEWORK_BOOST := false
+
 # Blaze Stuff
 BLAZE_BUILD_TYPE := UNOFFICIAL
 BLAZE_MAINTAINER := ＡＤＩＴＹＡ
